@@ -1,0 +1,106 @@
+:root {
+  --radius: 20px;
+}
+
+body {
+  background-color: rgb(83, 215, 255);
+  margin: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+main {
+  max-width: 800px;
+  display: grid;
+  /* grid-template-columns: repeat(4, 1rf);
+  grid-template-rows: auto; */
+  grid-template-areas:
+    "header header header header"
+    "somma sott molt divi"
+    "sette otto nove uguale"
+    "quattro cinque sei uguale"
+    "uno due tre uguale"
+    "zero point del uguale";
+  background-color: gray;
+  border-radius: var(--radius);
+  box-shadow: 10px 10px 20px grey;
+}
+
+#header {
+  grid-area: header;
+  background-color: rgb(42, 42, 42);
+  color: white;
+  height: 5rem;
+  border-top-right-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+  font-size: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+  box-shadow: 10px 10px 20px grey;
+}
+#somma {
+  grid-area: somma;
+}
+#sott {
+  grid-area: sott;
+}
+#molt {
+  grid-area: molt;
+}
+#divi {
+  grid-area: divi;
+}
+#uguale {
+  grid-area: uguale;
+  background-color: tomato;
+  height: auto;
+  border-bottom-right-radius: var(--radius);
+}
+#uno {
+  grid-area: uno;
+}
+#due {
+  grid-area: due;
+}
+#tre {
+  grid-area: tre;
+}
+#quattro {
+  grid-area: quattro;
+}
+#cinque {
+  grid-area: cinque;
+}
+#sei {
+  grid-area: sei;
+}
+#sette {
+  grid-area: sette;
+}
+#otto {
+  grid-area: otto;
+}
+#nove {
+  grid-area: nove;
+}
+#zero {
+  grid-area: zero;
+  border-bottom-left-radius: var(--radius);
+}
+#point {
+  grid-area: point;
+}
+#del {
+  grid-area: del;
+}
+
+div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  margin: 1px;
+  background-color: lightgray;
+  font-size: 1.5rem;
+}
