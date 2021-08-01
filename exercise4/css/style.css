@@ -8,6 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
+
 main {
   max-width: 800px;
   display: grid;
@@ -39,61 +40,6 @@ main {
   padding-right: 1rem;
   box-shadow: 10px 10px 20px grey;
 }
-#somma {
-  grid-area: somma;
-}
-#sott {
-  grid-area: sott;
-}
-#molt {
-  grid-area: molt;
-}
-#divi {
-  grid-area: divi;
-}
-#uguale {
-  grid-area: uguale;
-  background-color: tomato;
-  height: auto;
-  border-bottom-right-radius: var(--radius);
-}
-#uno {
-  grid-area: uno;
-}
-#due {
-  grid-area: due;
-}
-#tre {
-  grid-area: tre;
-}
-#quattro {
-  grid-area: quattro;
-}
-#cinque {
-  grid-area: cinque;
-}
-#sei {
-  grid-area: sei;
-}
-#sette {
-  grid-area: sette;
-}
-#otto {
-  grid-area: otto;
-}
-#nove {
-  grid-area: nove;
-}
-#zero {
-  grid-area: zero;
-  border-bottom-left-radius: var(--radius);
-}
-#point {
-  grid-area: point;
-}
-#del {
-  grid-area: del;
-}
 
 div {
   display: flex;
@@ -104,3 +50,80 @@ div {
   background-color: lightgray;
   font-size: 1.5rem;
 }
+
+.steelblue{
+  background: lightsteelblue;
+}
+
+#somma {
+  grid-area: somma;
+}
+
+#sott {
+  grid-area: sott;
+}
+
+#molt {
+  grid-area: molt;
+}
+
+#divi {
+  grid-area: divi;
+}
+
+#uguale {
+  grid-area: uguale;
+  background-color: tomato;
+  height: auto;
+  border-bottom-right-radius: var(--radius);
+}
+
+#uno {
+  grid-area: uno;
+}
+
+#due {
+  grid-area: due;
+}
+
+#tre {
+  grid-area: tre;
+}
+
+#quattro {
+  grid-area: quattro;
+}
+
+#cinque {
+  grid-area: cinque;
+}
+
+#sei {
+  grid-area: sei;
+}
+
+#sette {
+  grid-area: sette;
+}
+
+#otto {
+  grid-area: otto;
+}
+
+#nove {
+  grid-area: nove;
+}
+
+#zero {
+  grid-area: zero;
+  border-bottom-left-radius: var(--radius);
+}
+
+#point {
+  grid-area: point;
+}
+
+#del {
+  grid-area: del;
+}
+
